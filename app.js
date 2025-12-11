@@ -1,2 +1,7 @@
-var name = "HI im sahitha";
-console.log(name);
+const obj = require("./sum.js");
+
+var a = 10;
+var b = 20;
+
+obj.calculateSum(a, b);
+console.log(obj.z);
